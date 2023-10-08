@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<title>KPOPPIN'</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/layout.css" type="text/css">
+	<link rel="stylesheet" href="task1_content_management_tool.js">
+ 
+</head>
+
+
+<body>
+	<div class="wrapper row1">
+		<header id="header" class="clear">
+			<div id="hgroup">
+				<h1><a href="Task_1_Content_Management_Tool_Krithika.html"><img src="images/facebook_cover_photo_1 (3).jpg" height="100px"
+							width="270px"></a></h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="Task_1_Content_Management_Tool_Krithika.html">Home</a></li>
+					<a href="#">
+						<div class="dropdown">
+							<button class="dropbtn">BLOGS</button>
+							<div class="dropdown-content">
+								<a href="prof_bts.html">BTS</a>
+								<a href="prof_exo.html">EXO</a>
+								<a href="prof_bb.html">BIGBANG</a>
+								<a href="prof_tw.html">TWICE</a>
+								<a href="prof_bp.html">BLACKPINK</a>
+								<a href="prof_skz.html">STRAY KIDS</a>
+								<a href="prof_az.html">ATEEZ</a>
+								<a href="prof_nct.html">NCT</a>
+								<a href="prof_g7.html">GOT7</a>
+							</div>
+						</div>
+					</a>
+					
+
+					<li class="last">
+        				<li><a href="formpage.html">POSTS</a></li>
+        				</li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div class="wrapper row2">
+		<div id="container" class="clear">
+			<section id="subtitle">
+				<p>A Content Management Tool for the Bharat Intern Internship
+					A blogging website providing information on various kpop groups!!</p>
+			</section>
+			<div id="homepage">
+
+
+				 
+  </div>
+  <div class="responsive-font-example">
+    <h1 class="responsive-font-example" id="about" style="color: burlywood; text-align: center;"><b> What is Blogging ? </b></h1>
+    <div class="responsive-font-example" class="sampoorna">
+      <h4 class="responsive-font-example" style="color: azure; text-align: justify; padding: 20px;">
+        Blogging refers to writing, photography, and other media that's self-published online. Blogging started as an
+        opportunity for individuals to write diary-style entries, but it has since been incorporated into websites for
+        many businesses. The hallmarks of blogging include frequent updates, informal language, and opportunities for
+        readers to engage and start a conversation.
+        <br>
+        The answer to “What is blogging?” is that it is the process of creating blog posts and publishing them on a
+        website. The website can be owned by an individual or a company, and the posted content can be articles,
+        photos or other digital media. Blogging often involves sharing long-form articles on a specific subject. Most
+        blogs have a target audience, and bloggers often choose topics that interest their target audience. Often,
+        brands have blogs on their websites, making it easier for users to know about the company and engage with
+        them.
+    </div>
+    </h4>
+
+  </div>
+  <br>
+
+				<section id="latest">
+					<article>
+						<figure>
+							<ul>
+							<li class="one_third">
+								<a href="prof_bts.html" >
+										<img src="images/bts-logo.png" width="250" height="250" alt="" hspace="10">
+									</a></li>
+								<li class="two_third">
+									<a href="prof_exo.html">
+										<img src="images/exo_logo.png" width="270" height="220" alt="" hspace="10">
+									</a>
+								</li>
+								<li class="three_third">
+									<a href="prof_bb.html" >
+										<img src="images/Big_Bang_logo.png" width="250" height="250" alt="" hspace="10">
+									</a>
+								</li>
+							</ul>
+							<ul>
+								<li class="one_third">
+									<a href="prof_tw.html">
+										<img src="images/Twice-logo.png" width="250" height="250" alt="" hspace="10">
+									</a></li>
+								<li class="two_third">
+									<a href="prof_bp.html">
+										<img src="images/B.png" width="300" height="220" alt="" hspace="10">
+									</a>
+								</li>
+								<li class="three_third">
+									<a href="prof_skz.html" >
+										<img src="images/SKZ-logo.png" width="270" height="250" alt="" hspace="10">
+									</a>
+								</li>
+							</ul>
+							<ul>
+								<li class="one_third">
+									<a href="prof_az.html" >
+										<img src="images/AZ-logo.jpg" width="250" height="250" alt="" hspace="10">
+									</a></li>
+								<li class="two_third">
+									<a href="prof_nct.html" >
+										<img src="images/NCT_127_logo.png" width="270" height="250" alt="" hspace="10">
+									</a>
+								</li>
+								<li class="three_third">
+									<a href="prof_g7.html" >
+										<img src="images/Got7_logo.png" width="250" height="250" alt="" hspace="10">
+									</a>
+								</li>
+							</ul>
+						</figure>
+					</article>
+				</section>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper row3">
+		<footer id="footer" class="clear">
+			<a href="formpage.html">CONTACT US</a><br/>
+			<p class="fl_left">Website by Krithika Senthil</p>
+		</footer>
+	</div>
+<script>
+    function addBlog() {
+      // Retrieve input values
+      var title = document.getElementById("title").value;
+      var image = document.getElementById("image").value;
+      var content = document.getElementById("content").value;
+
+
+      // Create HTML structure for the blog post
+      var blogPost = document.createElement("div");
+      blogPost.className = "blog-post";
+      blogPost.innerHTML = `
+      <h3 style="text-align:center;"><b>${title}</b></h3>
+      <br>
+      <div  style="display: flex;  flex-direction: column; align-items: center; justify-content: center;">
+        <img src="${image}" alt="Blog Image" style="height:250px; width:400px;">
+      <div>
+      <br>
+      <p style="color: black; font-size: medium; text-align: justify;"><b>${content}</b></p>
+      <br>
+        
+    `;
+
+      // Add the blog post to the preview section
+      var previewSection = document.getElementById("preview");
+      previewSection.appendChild(blogPost);
+
+      // Clear input fields after adding the blog
+      document.getElementById("title").value = "";
+      document.getElementById("image").value = "";
+      document.getElementById("content").value = "";
+    }
+  </script>
+</body>
+
+
+</html>
