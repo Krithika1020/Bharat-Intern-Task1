@@ -1,2 +1,3 @@
 # Bharat-Intern-Task1
-Content Management Tool
+Task Submission
+Content Management Tool: Blogging
